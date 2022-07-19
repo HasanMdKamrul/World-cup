@@ -148,6 +148,27 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+#upcoming-event {
+  width: 312px;
+  height: 242px;
+  /* padding: 53px 30px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#upcoming-event span {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#upcomming-illustration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card-content-illustration img {
   border-radius: 10px 10px 0px 0px;
 }
