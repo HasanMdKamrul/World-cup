@@ -198,6 +198,11 @@ body {
   color: #161616;
 }
 
+#fan-activity {
+  width: 100%;
+  height: 165px;
+}
+
 .card-content-description .fa-solid {
   color: rgba(22, 22, 22, 0.7);
   margin-right: 10px;
