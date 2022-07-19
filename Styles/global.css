@@ -258,8 +258,9 @@ body {
 }
 
 .footer-social-icons a {
-  color: white;
+  color: rgb(99, 109, 197);
   font-size: 20px;
+  margin-right: 1rem;
 }
 
 .view-all {
