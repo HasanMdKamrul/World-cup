@@ -215,3 +215,32 @@
   color: white;
   font-size: 20px;
 }
+
+/* **** Tablet Devices Style Sheet **** */
+/* ********************************** */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .header {
+    width: 100%;
+  }
+  .header-illustration img {
+    width: 100%;
+  }
+  .main-section-contents {
+    flex-direction: column;
+  }
+  .content-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .upcoming-contents {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffff;
+  }
+
+  .card-contents {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 7%;
+  }
+}
