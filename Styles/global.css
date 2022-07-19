@@ -58,8 +58,21 @@ body {
 .button {
   width: 187px;
   height: 56px;
-  background-color: #dd0000;
+  background-image: linear-gradient(to right, #5a3f37, #2c7744);
   border-radius: 5px;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+.button:hover .fa-angle-right {
+  transform: scale(1.5) translate(-100%, -100%);
+  position: absolute;
+  top: 40px;
+  left: 170px;
+}
+
+.button:hover {
+  background-image: linear-gradient(to right, #2c7744, #5a3f37);
 }
 
 .button a {
