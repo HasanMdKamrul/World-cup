@@ -37,7 +37,6 @@
 .header-description {
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
   color: #ffffff;
 }
 
@@ -268,5 +267,49 @@
     justify-content: center;
     align-items: center;
     padding: 10%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header {
+    width: 334px;
+    height: 472px;
+    flex-direction: column;
+    gap: 0;
+  }
+  .header-text {
+    margin: 0%;
+    padding: 0;
+    text-align: center;
+  }
+  .header-text .header-title {
+    font-size: 22px;
+  }
+  .header-text .header-description {
+    font-size: 14px;
+    text-overflow: ellipsis;
+    margin-bottom: 20px;
+  }
+
+  .header-text .button {
+    width: 161px;
+    height: 40px;
+  }
+  .button a {
+    font-size: 20px;
+  }
+  .header-illustration img {
+    width: 233px;
+    height: 245px;
+    margin: 0%;
+    padding: 0%;
+  }
+  .main-section-contents {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-contents {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
