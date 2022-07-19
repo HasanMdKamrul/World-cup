@@ -1,0 +1,72 @@
+/* ** Common CSS styles ** */
+
+.container {
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ********************* */
+/* ** Header Section Styles */
+/* *********************** */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  background-color: #161616;
+  border-radius: 30px;
+  width: 1321px;
+  height: 646px;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 70px;
+  color: #ffffff;
+}
+
+.header-text {
+  padding-top: 111px;
+  padding-bottom: 111px;
+  padding-left: 106px;
+}
+
+.header-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.header-illustration img {
+  width: 581px;
+  height: 613px;
+  padding-top: 33px;
+  padding-right: 79px;
+}
+
+.button {
+  width: 187px;
+  height: 56px;
+  background-color: #dd0000;
+  border-radius: 5px;
+}
+
+.button a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.fa-angle-right {
+  color: #ffffff;
+}
+
+.half-width {
+  width: 50%;
+}
