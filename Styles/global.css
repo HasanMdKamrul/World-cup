@@ -70,3 +70,148 @@
 .half-width {
   width: 50%;
 }
+
+/* *********************** */
+/* ******** Main section Section 1*/
+
+/* *********************** */
+/* ** Upcomming Events */
+
+.upcoming-contents {
+  width: 312px;
+  height: 312px;
+  background-color: #161616;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.content-button {
+  width: 252px;
+  height: 64px;
+  border-radius: 10px;
+}
+
+.content-button a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #161616;
+}
+
+#active {
+  background-color: #dd0000;
+}
+
+#active a {
+  color: #ffffff;
+}
+
+/* *********************** */
+/* ** Upcomming Events Ends*/
+
+/* .card-content-illustration img {
+  margin-bottom: 20px;
+} */
+
+/* .card-content-illustration {
+  display: flex;
+  flex-direction: column;
+} */
+
+.main-section-contents {
+  display: flex;
+  gap: 24px;
+}
+
+/* *** Card Contents *** */
+/* *********************** */
+
+.card-contents {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card-content {
+  width: 312px;
+  height: 362px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-content-illustration img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-content-description {
+  margin: 20px;
+}
+
+.card-content-button {
+  width: 100px;
+  height: 32px;
+  color: #161616;
+}
+
+.card-content-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #161616;
+}
+
+.card-content-description .fa-solid {
+  color: rgba(22, 22, 22, 0.7);
+  margin-right: 10px;
+}
+
+.Hour {
+  margin-right: 30px;
+}
+
+/* *** Card Contents Ends*** */
+/* *********************** */
+
+.footer-section {
+  padding: 2%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #161616;
+}
+
+.footer-section hr {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-title {
+  font-weight: 600;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  margin-right: 1.5em;
+  font-weight: 500;
+  font-size: 16px;
+  color: #b9b9b9;
+}
+
+.footer-nav {
+  margin-bottom: 20px;
+}
+
+.footer-social-icons {
+  color: white;
+  font-size: 20px;
+}
