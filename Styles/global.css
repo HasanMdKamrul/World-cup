@@ -315,6 +315,16 @@ body {
     align-items: center;
     padding: 10%;
   }
+
+  .button {
+    width: 161px;
+    height: 48px;
+    margin-bottom: 30px;
+  }
+  .button:hover .fa-angle-right {
+    left: 150px;
+    top: 37px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
