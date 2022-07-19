@@ -216,6 +216,10 @@
   font-size: 20px;
 }
 
+.view-all {
+  display: none;
+}
+
 /* **** Tablet Devices Style Sheet **** */
 /* ********************************** */
 
@@ -242,5 +246,27 @@
   .card-contents {
     grid-template-columns: repeat(2, 1fr);
     padding-left: 7%;
+  }
+
+  .view-all {
+    display: block;
+    width: 131px;
+    height: 47px;
+    background-color: #dd0000;
+    border-radius: 5px;
+  }
+  .view-all a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .view-all-button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
   }
 }
