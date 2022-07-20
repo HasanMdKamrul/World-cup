@@ -21,37 +21,37 @@ body {
 /* *** Animation *** */
 @keyframes color-change {
   0% {
-    background-color: rgb(115, 115, 213);
+    background-color: #eb4d4b;
   }
   10% {
-    background-color: rgb(85, 85, 189);
+    background-color: #e6425e;
   }
   20% {
-    background-color: rgb(55, 107, 55);
+    background-color: #6ac47e;
   }
   30% {
-    background-color: rgb(144, 82, 82);
+    background-color: #38cc77;
   }
   40% {
-    background-color: rgb(55, 87, 55);
+    background-color: #35bdd0;
   }
   50% {
-    background-color: rgb(125, 78, 61);
+    background-color: #46b2e0;
   }
   60% {
-    background-color: rgb(23, 135, 38);
+    background-color: #5da3fa;
   }
   70% {
-    background-color: rgb(143, 143, 180);
+    background-color: #e5d68a;
   }
   80% {
-    background-color: rgb(61, 139, 218);
+    background-color: #f4ce6a;
   }
   90% {
-    background-color: rgb(107, 74, 33);
+    background-color: #cad5e2;
   }
   100% {
-    background-color: rgb(193, 59, 117);
+    background-color: #03c6c7;
   }
 }
 
@@ -64,7 +64,7 @@ body {
   border-radius: 30px;
   width: 1321px;
   height: 646px;
-  animation: color-change 40s ease-in-out 0s infinite alternate;
+  animation: color-change 50s ease-in-out 0s infinite alternate;
 }
 
 .header-title {
@@ -94,12 +94,12 @@ body {
 
 @keyframes button-color-change {
   0% {
-    background-image: linear-gradient(to right, #642b73, #c6426e);
+    background-image: linear-gradient(to right, #ff4331, #d31a50);
     transition: all 2s ease-in-out;
   }
 
   100% {
-    background-image: linear-gradient(to left, #642b73, #c6426e);
+    background-image: linear-gradient(to left, #ff4331, #d31a50);
     transition: all 2s ease-in-out;
   }
 }
