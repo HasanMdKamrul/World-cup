@@ -64,7 +64,7 @@ body {
   border-radius: 30px;
   width: 1321px;
   height: 646px;
-  animation: color-change 25s ease-in-out 0s infinite alternate;
+  animation: color-change 40s ease-in-out 0s infinite alternate;
 }
 
 .header-title {
