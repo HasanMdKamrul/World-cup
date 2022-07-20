@@ -18,7 +18,7 @@ body {
 /* ********************* */
 /* ** Header Section Styles */
 /* *********************** */
-
+/* *** Animation *** */
 @keyframes color-change {
   0% {
     background-color: rgb(115, 115, 213);
@@ -92,13 +92,27 @@ body {
   padding-right: 79px;
 }
 
+@keyframes button-color-change {
+  0% {
+    background-image: linear-gradient(to right, #642b73, #c6426e);
+    transition: all 2s ease-in-out;
+  }
+
+  100% {
+    background-image: linear-gradient(to left, #642b73, #c6426e);
+    transition: all 2s ease-in-out;
+  }
+}
+
 .button {
   width: 187px;
   height: 56px;
-  background-image: linear-gradient(to right, #5a3f37, #2c7744);
+  /* background-image: linear-gradient(to right, #5a3f37, #2c7744); */
   border-radius: 5px;
   position: relative;
-  transition: all 1s ease-in-out;
+  /* transition: all 1s ease-in-out; */
+  animation: button-color-change 2s ease-in-out 0s infinite alternate;
+  animation-play-state: running;
 }
 
 .button:hover .fa-angle-right {
