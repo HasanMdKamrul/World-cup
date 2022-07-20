@@ -107,6 +107,9 @@ body {
 .button {
   width: 187px;
   height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* background-image: linear-gradient(to right, #5a3f37, #2c7744); */
   border-radius: 5px;
   position: relative;
@@ -115,15 +118,23 @@ body {
   animation-play-state: running;
 }
 
-.button:hover .fa-angle-right {
-  transform: scale(1.5) translate(-100%, -100%);
-  position: absolute;
-  top: 40px;
-  left: 170px;
+.button {
+  transition: all 0.5s ease-in-out;
 }
 
 .button:hover {
-  background-image: linear-gradient(to right, #2c7744, #5a3f37);
+  transform: scale(1.2);
+}
+
+.watch-live {
+  transition: all 0.5s ease-in-out;
+}
+.watch-live:hover {
+  transform: scale(1.2);
+}
+
+#football:hover {
+  transform: scale(1.5) rotate(90deg);
 }
 
 .button a {
@@ -375,10 +386,6 @@ body {
     height: 48px;
     margin-bottom: 30px;
   }
-  .button:hover .fa-angle-right {
-    left: 150px;
-    top: 37px;
-  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -422,10 +429,5 @@ body {
   }
   .card-contents {
     grid-template-columns: repeat(1, 1fr);
-  }
-
-  .button:hover .fa-angle-right {
-    left: 145px;
-    top: 35px;
   }
 }
