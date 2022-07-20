@@ -19,6 +19,42 @@ body {
 /* ** Header Section Styles */
 /* *********************** */
 
+@keyframes color-change {
+  0% {
+    background-color: rgb(115, 115, 213);
+  }
+  10% {
+    background-color: rgb(85, 85, 189);
+  }
+  20% {
+    background-color: rgb(55, 107, 55);
+  }
+  30% {
+    background-color: rgb(144, 82, 82);
+  }
+  40% {
+    background-color: rgb(55, 87, 55);
+  }
+  50% {
+    background-color: rgb(125, 78, 61);
+  }
+  60% {
+    background-color: rgb(23, 135, 38);
+  }
+  70% {
+    background-color: rgb(143, 143, 180);
+  }
+  80% {
+    background-color: rgb(61, 139, 218);
+  }
+  90% {
+    background-color: rgb(107, 74, 33);
+  }
+  100% {
+    background-color: rgb(193, 59, 117);
+  }
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -28,6 +64,7 @@ body {
   border-radius: 30px;
   width: 1321px;
   height: 646px;
+  animation: color-change 25s ease-in-out 0.5s infinite alternate;
 }
 
 .header-title {
@@ -316,6 +353,8 @@ body {
     align-items: center;
     padding: 10%;
   }
+
+  /* ** Animation */
 
   .button {
     width: 161px;
