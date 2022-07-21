@@ -430,4 +430,11 @@ body {
   .card-contents {
     grid-template-columns: repeat(1, 1fr);
   }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-nav a {
+    margin-top: 20px;
+  }
 }
